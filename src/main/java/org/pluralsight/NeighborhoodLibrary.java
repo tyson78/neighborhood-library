@@ -18,7 +18,7 @@ class NeighborhoodLibrary {
         String[] strings = s.split(",");
         // strings = {"hello "," world"}
 
-        // "hello"
+        // two ways to print "Hello World"
         for (String s1 : strings) {
             StringBuilder sb = new StringBuilder(s1.trim()); // "hello"
             sb.replace(0, 1, sb.substring(0,1).toUpperCase()); //HELL
